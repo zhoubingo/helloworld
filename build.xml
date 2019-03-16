@@ -12,7 +12,7 @@
      <target  name ="compile"  depends ="clean">
         <mkdir  dir ="${classes}"/>
 
-        <javac  srcdir ="src"  destdir ="${classes}"/>
+        <javac  srcdir ="src"  destdir ="${classes}" includeantruntime="on"/>
      </target>
 
      <!--  打war 包-->

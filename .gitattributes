@@ -1,1 +1,2 @@
-/build.xml merge=ours
+src/Hello.java merge=ours
+build.xml merge=ours
